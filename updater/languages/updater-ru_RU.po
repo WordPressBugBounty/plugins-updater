@@ -1,0 +1,910 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Updater\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-28 09:43+0300\n"
+"PO-Revision-Date: 2020-09-28 09:46+0300\n"
+"Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language-Team: bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bws_menu\n"
+
+#: includes/class-pdtr-settings.php:22 updater.php:38 updater.php:1232
+#: updater.php:1247
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-pdtr-settings.php:23
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: includes/class-pdtr-settings.php:24
+msgid "Misc"
+msgstr "Разное"
+
+#: includes/class-pdtr-settings.php:25
+msgid "Custom Code"
+msgstr "Пользовательский код"
+
+#: includes/class-pdtr-settings.php:27
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: includes/class-pdtr-settings.php:88
+msgid "Please select a recipient email. Settings are not saved."
+msgstr "Пожалуйста выберите получателя. Настройки не сохранены."
+
+#: includes/class-pdtr-settings.php:99 includes/class-pdtr-settings.php:106
+msgid "Please enter a valid recipient email. Settings are not saved."
+msgstr ""
+"Пожалуйста введите действительный email получателя. Настройки не сохранены."
+
+#: includes/class-pdtr-settings.php:119
+msgid "Please enter a valid sender email. Settings are not saved."
+msgstr ""
+"Пожалуйста введите действительный email отправителя. Настройки не сохранены."
+
+#: includes/class-pdtr-settings.php:139
+msgid ""
+"Please select at least one option in the 'Check & Update' section. Settings "
+"are not saved."
+msgstr ""
+"Пожалуйста выберите хотя бы один параметр в разделе «Проверка и Обновление». "
+"Настройки не сохранены."
+
+#: includes/class-pdtr-settings.php:150
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: includes/class-pdtr-settings.php:160 updater.php:277
+msgid "Updater Settings"
+msgstr "Настройки Updater"
+
+#: includes/class-pdtr-settings.php:165
+msgid "Check & Update"
+msgstr "Проверка и обновление"
+
+#: includes/class-pdtr-settings.php:168 updater.php:712 updater.php:753
+#: updater.php:836
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-pdtr-settings.php:170
+msgid "Plugins"
+msgstr "Плагины"
+
+#: includes/class-pdtr-settings.php:172
+msgid "Themes"
+msgstr "Темы"
+
+#: includes/class-pdtr-settings.php:174 updater.php:718 updater.php:759
+#: updater.php:840
+msgid "Translations"
+msgstr "Переводы"
+
+#: includes/class-pdtr-settings.php:183 includes/class-pdtr-settings.php:223
+#: includes/class-pdtr-settings.php:393
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/class-pdtr-settings.php:187
+msgid "Update Inactive Plugins & Themes"
+msgstr "Обновлять неактивные плагины и темы"
+
+#: includes/class-pdtr-settings.php:191
+msgid "Enable to update inactive plugins and themes."
+msgstr "Включите, чтобы обновлять неактивные плагины и темы."
+
+#: includes/class-pdtr-settings.php:203 includes/software-table.php:48
+msgid "Auto Update"
+msgstr "Автоматическое обновление"
+
+#: includes/class-pdtr-settings.php:207
+msgid "Enable to update software automatically."
+msgstr "Включите, чтобы автоматически обновлять программное обеспечение."
+
+#: includes/class-pdtr-settings.php:212
+msgid "Search & Install Updates Every"
+msgstr "Искать и устанавливать обновления каждые"
+
+#: includes/class-pdtr-settings.php:214
+msgid "hours"
+msgstr "часов"
+
+#: includes/class-pdtr-settings.php:227
+msgid "Backup"
+msgstr "Резервное копирование"
+
+#: includes/class-pdtr-settings.php:230
+msgid ""
+"Enable to automatically create a backup before each update (recommended)."
+msgstr ""
+"Включите, чтобы автоматически создавать резервную копию перед каждым "
+"обновлением (рекомендуется)."
+
+#: includes/class-pdtr-settings.php:234
+msgid "Backup Rotation"
+msgstr "Чередование резервных копий"
+
+#: includes/class-pdtr-settings.php:239
+msgid ""
+"The maximum number of stored backups. When maximum limit is reached the "
+"oldest backup will be automatically deleted."
+msgstr ""
+"Максимальное количество резервных копий для хранения. Когда будет достигнут "
+"максимальный предел, самая старая резервная копия будет автоматически "
+"удалена."
+
+#: includes/class-pdtr-settings.php:243
+msgid "Backup Custom"
+msgstr "Резервное копирование пользовательских"
+
+#: includes/class-pdtr-settings.php:246
+msgid "Folders"
+msgstr "Папок"
+
+#: includes/class-pdtr-settings.php:248
+msgid "Tables in database"
+msgstr "Таблиц в базе данных"
+
+#: includes/class-pdtr-settings.php:253
+msgid "Test Backup"
+msgstr "Тестовое резервное копирование"
+
+#: includes/class-pdtr-settings.php:256
+msgid "Enable to delete test backup when it's finished."
+msgstr "Разрешить удалять тестовую резервную копию по завершении."
+
+#: includes/class-pdtr-settings.php:258
+msgid "Backup Now"
+msgstr "Выполнить резервное копирование сейчас"
+
+#: includes/class-pdtr-settings.php:263
+msgid "Envato API"
+msgstr "Envato API"
+
+#: includes/class-pdtr-settings.php:266
+msgid ""
+"Insert your Envato API Personal Token to enable automatic updates of your "
+"installed products."
+msgstr ""
+"Введите свой персональный токен Envato API, чтобы включить автоматическое "
+"обновление установленных продуктов."
+
+#: includes/class-pdtr-settings.php:266
+msgid "Learn More"
+msgstr "Подробнее"
+
+#: includes/class-pdtr-settings.php:278
+msgid "Email Notifications Settings"
+msgstr "Настройка email уведомлений"
+
+#: includes/class-pdtr-settings.php:282
+msgid "Receive Email Notifications When"
+msgstr "Получать email уведомления когда"
+
+#: includes/class-pdtr-settings.php:285
+msgid "New updates are available"
+msgstr "Доступны новые обновления"
+
+#: includes/class-pdtr-settings.php:287
+msgid "Update is completed"
+msgstr "Обновление завершено"
+
+#: includes/class-pdtr-settings.php:292
+msgid "Send Email Notifications to"
+msgstr "Отправлять email уведомления на"
+
+#: includes/class-pdtr-settings.php:297
+msgid "Default email"
+msgstr "Стандартный эл. адрес"
+
+#: includes/class-pdtr-settings.php:301
+msgid "Select a username"
+msgstr "Выберите пользователя"
+
+#: includes/class-pdtr-settings.php:318
+msgid "Select an existing administrator or a custom email."
+msgstr "Выберите существующего администратора или пользовательский email."
+
+#: includes/class-pdtr-settings.php:323
+msgid "Custom email"
+msgstr "Пользовательский эл. адрес"
+
+#: includes/class-pdtr-settings.php:327
+msgid "Add multiple email addresses separated by comma."
+msgstr "Добавьте несколько e-mail адресов через запятую."
+
+#: includes/class-pdtr-settings.php:333
+msgid "Send Email Notifications from"
+msgstr "Отправлять email уведомления от"
+
+#: includes/class-pdtr-settings.php:335
+msgid "Name"
+msgstr "Имя"
+
+#: includes/class-pdtr-settings.php:337
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-pdtr-settings.php:339
+msgid ""
+"Note: If you will change this settings, email notifications may be marked as "
+"spam or email delivery failures may occur if you'll change this option."
+msgstr ""
+"Примечание: Если вы измените эти настройки, то email уведомления могут быть "
+"помечены как спам или могут возникнуть сбои доставки."
+
+#: includes/class-pdtr-settings.php:343
+#, fuzzy
+#| msgid "New updates are available"
+msgid "New Updates are Available"
+msgstr "Доступны новые обновления"
+
+#: includes/class-pdtr-settings.php:345 includes/class-pdtr-settings.php:364
+msgid "Subject"
+msgstr ""
+
+#: includes/class-pdtr-settings.php:348 includes/class-pdtr-settings.php:354
+#: includes/class-pdtr-settings.php:367 includes/class-pdtr-settings.php:373
+msgid "Allowed Variables:"
+msgstr ""
+
+#: includes/class-pdtr-settings.php:349 includes/class-pdtr-settings.php:356
+#: includes/class-pdtr-settings.php:368 includes/class-pdtr-settings.php:375
+msgid "Website name."
+msgstr ""
+
+#: includes/class-pdtr-settings.php:351 includes/class-pdtr-settings.php:370
+msgid "Message"
+msgstr ""
+
+#: includes/class-pdtr-settings.php:355
+msgid "List of available updates."
+msgstr "Список доступных обновлений."
+
+#: includes/class-pdtr-settings.php:357 includes/class-pdtr-settings.php:376
+msgid "Website URL."
+msgstr ""
+
+#: includes/class-pdtr-settings.php:362
+#, fuzzy
+#| msgid "Update is completed"
+msgid "Update is Completed"
+msgstr "Обновление завершено"
+
+#: includes/class-pdtr-settings.php:374
+msgid "Updates results."
+msgstr "Результаты обновлений."
+
+#: includes/class-pdtr-settings.php:397
+msgid "Skip Minor WordPress Updates"
+msgstr "Пропустить минорные обновления WordPress"
+
+#: includes/class-pdtr-settings.php:399
+msgid ""
+"Enable to turn off automatic update of WordPress minor versions. This will "
+"not have an impact on plugin’s workability."
+msgstr ""
+"Включите, чтобы автоматически создавать резервную копию перед каждым "
+"обновлением (рекомендуется)."
+
+#: includes/software-table.php:18
+msgid "item"
+msgstr "элемент"
+
+#: includes/software-table.php:19
+msgid "items"
+msgstr "элементы"
+
+#: includes/software-table.php:46
+msgid "Title"
+msgstr "Название"
+
+#: includes/software-table.php:47 updater.php:754
+msgid "Version"
+msgstr "Версия"
+
+#: includes/software-table.php:49
+msgid "Category"
+msgstr "Категория"
+
+#: includes/software-table.php:59
+msgid "Update Now"
+msgstr "Обновить сейчас"
+
+#: includes/software-table.php:74
+msgid "New version is available."
+msgstr "Доступна новая версия."
+
+#: includes/software-table.php:84
+#, php-format
+msgid "View %2$s details"
+msgstr "Просмотр %2$s деталей"
+
+#: includes/software-table.php:89
+msgid "or"
+msgstr "или"
+
+#: includes/software-table.php:89
+msgid "update now"
+msgstr "обновить сейчас"
+
+#: includes/software-table.php:91
+msgid "Update now."
+msgstr "Обновить сейчас."
+
+#: includes/software-table.php:98
+msgid "Plugin"
+msgstr "Плагин"
+
+#: includes/software-table.php:100
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/software-table.php:102
+msgid "Core"
+msgstr "Ядро"
+
+#: includes/software-table.php:105
+msgid "Enabled"
+msgstr "Включено"
+
+#: includes/software-table.php:107
+msgid "Disabled"
+msgstr "Выключено"
+
+#: includes/software-table.php:143
+msgid "Disable Auto Update"
+msgstr "Отключить автоматическое обновление"
+
+#: includes/software-table.php:143
+msgid "Available in Pro"
+msgstr "Доступно в Про версии плагина"
+
+#: includes/software-table.php:260
+msgid "Sending Report..."
+msgstr "Отправка Отчетов..."
+
+#: includes/software-table.php:280
+#, php-format
+msgid "Sorry, your email could not be sent to %s."
+msgstr "Извините, ваш email не может быть отправлен на %s."
+
+#: includes/software-table.php:282
+#, php-format
+msgid "The email with the update results was sent to %s."
+msgstr "Письмо с результатами обновления был отправлен на %s."
+
+#: includes/software-table.php:286
+msgid "Go to the Updater page"
+msgstr "Перейти на страницу Updater"
+
+#: includes/software-table.php:286
+msgid "Go back to the Updater page"
+msgstr "Вернуться на страницу Updater"
+
+#: updater.php:37 updater.php:280
+msgid "Installed Software"
+msgstr "Установленное программное обеспечение"
+
+#: updater.php:45
+msgid "Upgrade to Pro"
+msgstr "Обновиться до Pro"
+
+#: updater.php:173 updater.php:176
+msgid "Hello!"
+msgstr "Здравствуйте!"
+
+#: updater.php:173 updater.php:176
+#, fuzzy
+#| msgid "Updater plugin is run on your website %s."
+msgid "Updater plugin is run on your website"
+msgstr "Плагин Updater был запущен на вашем сайте %s."
+
+#: updater.php:173
+msgid "The following files need to be updated:"
+msgstr "Следующие файлы нуждаются в обновлении:"
+
+#: updater.php:174 updater.php:177
+#, php-format
+msgid ""
+"If you want to change the type of the updating mode or other settings, "
+"please go to the %s."
+msgstr ""
+"Если Вы хотите изменить тип обновления для плагина или другие настройки, "
+"перейдите на %s."
+
+#: updater.php:174 updater.php:177
+msgid "plugin settings page"
+msgstr "страницу настроек плагина"
+
+#: updater.php:175 updater.php:178
+#, php-format
+msgid "Thanks for using %s!"
+msgstr "Спасибо за использование %s!"
+
+#: updater.php:197
+#, fuzzy
+#| msgid "Check for updates on"
+msgid "Check for Updates on"
+msgstr "Проверка обновлений на"
+
+#: updater.php:198
+#, fuzzy
+#| msgid "Updating on %s"
+msgid "Updating on"
+msgstr "Обновления на %s"
+
+#: updater.php:282
+msgid ""
+"We strongly recommend you to backup your website and WordPress database "
+"before updating! We are not responsible for the site running after updates."
+msgstr ""
+"Мы настоятельно рекомендуем вам сделать резервную копию вашего сайта и базы "
+"данных WordPress перед обновлением! Мы не несем ответственности за работу "
+"сайта после обновлений."
+
+#: updater.php:487
+msgid "Updating Plugins..."
+msgstr "Обновление плагинов..."
+
+#: updater.php:515
+msgid "Updating Themes..."
+msgstr "Обновление тем..."
+
+#: updater.php:548
+msgid "Updating Translations..."
+msgstr "Обновление переводов..."
+
+#: updater.php:572
+msgid "Updating WordPress..."
+msgstr "Обновление WordPress..."
+
+#: updater.php:616
+msgid "Update Failed"
+msgstr "Обновление не удалось"
+
+#: updater.php:622
+msgid "WordPress was updated successfully!"
+msgstr "WordPress удачно обновлен!"
+
+#: updater.php:685
+msgid "The following files can't be updated"
+msgstr "Следующие файлы не могут быть обновлены"
+
+#: updater.php:688 updater.php:731 updater.php:815
+msgid "Plugin(s)"
+msgstr "Плагин(ы)"
+
+#: updater.php:693 updater.php:705
+msgid "failed update"
+msgstr "неудачное обновление"
+
+#: updater.php:693 updater.php:705 updater.php:819 updater.php:829
+#: updater.php:836
+#, php-format
+msgid "the current version is %s"
+msgstr "текущая версия: %s"
+
+#: updater.php:700 updater.php:742 updater.php:825
+msgid "Theme(s)"
+msgstr "Тем(ы)"
+
+#: updater.php:713
+msgid "WordPress can’t be updated on your website."
+msgstr "WordPress не может быть обновлен на вашем сайте."
+
+#: updater.php:720
+msgid "failed update."
+msgstr "ошибка при обновлении."
+
+#: updater.php:728
+msgid "The following files were updated successfully"
+msgstr "Следующие файлы были успешно обновлены"
+
+#: updater.php:735 updater.php:746
+#, php-format
+msgid "updated to the version %s"
+msgstr "обновлено до версии %s"
+
+#: updater.php:761
+msgid "updated successfully."
+msgstr "успешно обновлены."
+
+#: updater.php:818 updater.php:828
+#, php-format
+msgid "to the version %s"
+msgstr "до версии %s"
+
+#: updater.php:836
+#, php-format
+msgid "Version %s is available"
+msgstr "Доступна версия %s"
+
+#: updater.php:849 updater.php:854
+msgid "To start the updating, please follow the link"
+msgstr "Чтобы начать обновление, перейдите по ссылке"
+
+#: updater.php:849 updater.php:854
+msgid "Updater page on your website"
+msgstr "Cтраница Updater на вашем сайте"
+
+#: updater.php:851
+msgid "Updater plugin starts updating these files."
+msgstr "Плагин Updater начинает обновление данных файлов."
+
+#: updater.php:858
+msgid "Your files are all up to date."
+msgstr "Все ваши файлы обновлены."
+
+#: updater.php:1249
+msgid "FAQ"
+msgstr "FAQ"
+
+#: updater.php:1250
+msgid "Support"
+msgstr "Тех. поддержка"
+
+#: updater.php:1266
+msgid "Notice:"
+msgstr "Внимание:"
+
+#: updater.php:1268
+msgid "Due to the peculiarities of the multisite work, Updater plugin has only"
+msgstr "В связи с особенностями работы мультисайта плагин Updater имеет только"
+
+#: updater.php:1268
+msgid "Network settings page"
+msgstr "Страницу настроек сети"
+
+#: updater.php:1270
+msgid ""
+"Due to the peculiarities of the multisite work, Updater plugin has the "
+"network settings page only and it should be Network Activated."
+msgstr ""
+"В связи с особенностями работы мультисайта плагин Updater имеет только "
+"страницу настроек сети и должен быть активирован для сети."
+
+#: updater.php:1270
+msgid "Activate Updater for Network"
+msgstr "Активируйте Updater для сети"
+
+#~ msgid ""
+#~ "Congratulations! Your plugins, themes, translations and WordPress have "
+#~ "the latest versions!"
+#~ msgstr ""
+#~ "Поздравляем! Ваши плагины, темы, переводы и WordPress имеют последние "
+#~ "версии!"
+
+#~ msgid "Check for Updates on %s"
+#~ msgstr "Проверка обновлений на %s"
+
+#~ msgid "You can specify several email, separating them by commas."
+#~ msgstr "Вы можете указать несколько email, разделив их запятой."
+
+#~ msgid "Software"
+#~ msgstr "Программное обеспечение"
+
+#~ msgid "Custome Code"
+#~ msgstr "Пользовательский код"
+
+#~ msgid ""
+#~ "Congratulations! Your plugins, themes and WordPress have the latest "
+#~ "versions!"
+#~ msgstr "Поздравляем! Ваши плагины, темы и WordPress имеют последние версии!"
+
+#~ msgid "failed update to the version %s"
+#~ msgstr "ошибка при обновлении до версии %s"
+
+#~ msgid "Default"
+#~ msgstr "Стандартный эл. адрес"
+
+#~ msgid "Custom"
+#~ msgstr "Пользовательский эл. адрес"
+
+#~ msgid "You can specify several emails, separating them by commas."
+#~ msgstr "Вы можете указать несколько email, разделив их запятой."
+
+#~ msgid ""
+#~ "Please select at least one option in the Update section. Settings are not "
+#~ "saved."
+#~ msgstr ""
+#~ "Выберите хотя бы один параметр в разделе «Обновление». Настройки не "
+#~ "сохранены."
+
+#~ msgid "Update"
+#~ msgstr "Обновить"
+
+#~ msgid "The Updater plugin made the updates at the site"
+#~ msgstr "Плагин Updater выполнил обновления на сайте"
+
+#~ msgid "The Updater plugin is being run on your website"
+#~ msgstr "Плагин Updater был запущен на вашем сайте"
+
+#~ msgid "These plugins were updated:"
+#~ msgstr "Плагин обновлен:"
+
+#~ msgid "to the version"
+#~ msgstr "до версии"
+
+#~ msgid "These themes were updated:"
+#~ msgstr "Тема обновлена:"
+
+#~ msgid "WordPress was updated to the version"
+#~ msgstr "WordPress удачно обновлен"
+
+#~ msgid "We couldn't update WordPress Core in the site"
+#~ msgstr "Мы не смогли обновить WordPress на сайте."
+
+#~ msgid ""
+#~ "If you want to change the plugin mode or other settings you should go "
+#~ "here:"
+#~ msgstr ""
+#~ "Если Вы хотите изменить тип режима для плагина или другие настройки, то "
+#~ "Вам сюда:"
+
+#~ msgid "the Updater settings page on your website."
+#~ msgstr "страница настроек Updater на вашем сайте."
+
+#~ msgid "Thanks for using the plugin"
+#~ msgstr "Спасибо за использование плагина"
+
+#~ msgid "The files that need update are:"
+#~ msgstr "Эти файлы могут быть обновлены:"
+
+#~ msgid "These plugins can be updated:"
+#~ msgstr "Плагины могут быть обновлены:"
+
+#~ msgid "the current version is"
+#~ msgstr "текущая версия"
+
+#~ msgid "These themes can be updated:"
+#~ msgstr "Темы могут быть обновлены:"
+
+#~ msgid "WordPress can be updated to the version"
+#~ msgstr "WordPress может быть обновлен."
+
+#~ msgid "Please use this link to update:"
+#~ msgstr "Для обновления воспользуйтесь ссылкой:"
+
+#~ msgid "the Updater page on your website."
+#~ msgstr "страница Updater на вашем сайте."
+
+#~ msgid "The Updater plugin starts updating these files."
+#~ msgstr "Плагин Updater начинает обновление данных файлов."
+
+#~ msgid ""
+#~ "Congratulations! Your plugins, themes and WordPress have the latest "
+#~ "updates!"
+#~ msgstr ""
+#~ "Поздравляем! Ваши плагины, темы и WordPress не нуждаются в обновлении!"
+
+#~ msgid ""
+#~ "If you want to change the type of the mode for the plugin or other "
+#~ "settings, please go:"
+#~ msgstr ""
+#~ "Если Вы хотите изменить тип режима для плагина или другие настройки, то "
+#~ "Вам сюда:"
+
+#~ msgid ""
+#~ "If you want to change type of mode for the plugin or other settings you "
+#~ "should go here:"
+#~ msgstr ""
+#~ "Если Вы хотите изменить тип режима для плагина или другие настройки, то "
+#~ "Вам сюда:"
+
+#~ msgid "Updater"
+#~ msgstr "Обновить все"
+
+#~ msgid "Return to the Updater page"
+#~ msgstr "Перейти на страницу Updater"
+
+#~ msgid "Sorry, your message could not be sent to"
+#~ msgstr "Извините, ваш e-mail не может быть отправлен на"
+
+#~ msgid "The email message with the update results is sent to"
+#~ msgstr "Е-mail с результатами обновления был отправлен на"
+
+#~ msgid "Test message was sent to"
+#~ msgstr "Тестовый Е-mail был отправлен на"
+
+#~ msgid "Please check off the Send email options, save settings and try again"
+#~ msgstr ""
+#~ "Пожалуйста, отметьте отправку писем, сохраните настройки и попробуйте еще "
+#~ "раз"
+
+#~ msgid ""
+#~ "Please enter a time for search and/or update. A number of hours should be "
+#~ "integer and it should not contain more than 5 digits. Settings are not "
+#~ "saved"
+#~ msgstr ""
+#~ "Пожалуйста, введите правильное время для поиска и/или обновления. "
+#~ "Количество часов должно быть целое и должно содержать не более 5 цифр. "
+#~ "Настройки не сохранены"
+
+#~ msgid "Please enter a valid recipient email. Settings are not saved"
+#~ msgstr ""
+#~ "Пожалуйста, введите правильный адрес получателя. Настройки не сохранены"
+
+#~ msgid "Please enter a valid sender email. Settings are not saved"
+#~ msgstr ""
+#~ "Пожалуйста, введите правильный адрес отправителя. Настройки не сохранены"
+
+#~ msgid ""
+#~ "Please select at least one option in the Search/Update section. Settings "
+#~ "are not saved"
+#~ msgstr ""
+#~ "Пожалуйста, выберите хотя бы один пункт, в разделе Поиск / Обновление. "
+#~ "Настройки не сохранены"
+
+#~ msgid "All settings are saved"
+#~ msgstr "Все настройки сохранены"
+
+#~ msgid "All plugin settings were restored."
+#~ msgstr "Все настройки плагина восстановлены."
+
+#~ msgid "How to Use Step-by-step Instruction"
+#~ msgstr "Пошаговая инструкция по использованию плагина"
+
+#~ msgid "Tools"
+#~ msgstr "Инструменты"
+
+#~ msgid "This setting is available in Pro version"
+#~ msgstr "Этот параметр доступен в версии Pro"
+
+#~ msgid "User guide"
+#~ msgstr "Руководство пользователя"
+
+#~ msgid "Go PRO"
+#~ msgstr "Перейти к PRO"
+
+#~ msgid ""
+#~ "We strongly recommend that you backup your website and the WordPress "
+#~ "database before updating! We are not responsible for the site work after "
+#~ "updates"
+#~ msgstr ""
+#~ "Мы настоятельно рекомендуем Вам сделать резервное копирование вашего "
+#~ "сайта и базы данных WordPress перед обновлениями! Мы не несем "
+#~ "ответственности за корректность работы сайта после каких-либо обновлений"
+
+#~ msgid "the element will be updated"
+#~ msgstr "елемент будет обновляться"
+
+#~ msgid "the element will not be updated"
+#~ msgstr "елемент не будет обновляться"
+
+#~ msgid "Update information"
+#~ msgstr "Обновить данные"
+
+#~ msgid "Latest update was"
+#~ msgstr "Последнее обновление было"
+
+#~ msgid ""
+#~ "Updater Pro will display, check, and update all plugins/themes (Not just "
+#~ "the active ones)"
+#~ msgstr ""
+#~ "Updater Pro будет отображать, проверять и обновлять все плагины/темы (не "
+#~ "только активные)"
+
+#~ msgid "If you upgrade to Pro version all your settings will be saved."
+#~ msgstr "При обновлении до версии Pro все ваши настройки будут сохранены."
+
+#~ msgid "Unlock premium options by upgrading to Pro version"
+#~ msgstr "Активируйте премиум опции обновившись до Pro версии"
+
+#~ msgid "Update all"
+#~ msgstr "Обновить все"
+
+#~ msgid "WordPress Version"
+#~ msgstr "Версия WordPress"
+
+#~ msgid "No plugins found"
+#~ msgstr "Плагины не найдены."
+
+#~ msgid "No themes found"
+#~ msgstr "Темы не найдены."
+
+#~ msgid "Mode"
+#~ msgstr "Режим работы"
+
+#~ msgid "Manual"
+#~ msgstr "Ручной"
+
+#~ msgid "Auto"
+#~ msgstr "Автоматический"
+
+#~ msgid "Search/update"
+#~ msgstr "Поиск/обновление"
+
+#~ msgid "Search/update frequency"
+#~ msgstr "Частота поиска/обновления"
+
+#~ msgid "It should be integer and it should not contain more than 5 digits."
+#~ msgstr ""
+#~ " Количество часов должно быть целым, и не должно содержать более 5 цифр."
+
+#~ msgid "Send email when new versions are available"
+#~ msgstr "Отправить email при появлении новых версий"
+
+#~ msgid "Send email after updating"
+#~ msgstr "Отправить email после обновления"
+
+#~ msgid "Recipient email address (To:)"
+#~ msgstr "Еmail получателя (Кому:)"
+
+#~ msgid "'FROM' field"
+#~ msgstr "Поле отправителя (От кого: )"
+
+#~ msgid ""
+#~ "If this option is changed, email messages may be moved to the spam folder "
+#~ "or email delivery failures may occur."
+#~ msgstr ""
+#~ "Если эта настройка будет изменена, то это может приводить к тому, что "
+#~ "письма будут попадать в спам или не будут доставлены."
+
+#~ msgid "Make backup before updating"
+#~ msgstr "Создать резервную копию перед обновлением"
+
+#~ msgid "Test making the backup"
+#~ msgstr "Создание резервных копий:"
+
+#~ msgid "Backup all folders"
+#~ msgstr "Создать резервную копию для всех папок"
+
+#~ msgid "Backup all tables in database"
+#~ msgstr "Создать резервную копию всех таблиц в базе данных"
+
+#~ msgid "Delete test backup after testing"
+#~ msgstr "Удалить тестовую резервную копию после теста"
+
+#~ msgid "Disable auto WordPress update"
+#~ msgstr "Отключить автоматическое обновление ядра WordPress"
+
+#~ msgid "Disable updates for WordPress minor versions"
+#~ msgstr "Отключить обновления минорных версий WordPress"
+
+#~ msgid "Envato compatibility"
+#~ msgstr "Совместимость с Envato"
+
+#~ msgid "Generate your Envato API Personal Token"
+#~ msgstr "Создайте ваш Envato API Personal Token"
+
+#~ msgid "and insert it below."
+#~ msgstr "и вставьте его ниже."
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить Настройки"
+
+#~ msgid "Send a test email"
+#~ msgstr "Отправить тестовый email"
+
+#~ msgid ""
+#~ "Here You can make sure that your settings are correct and the email can "
+#~ "be delivered."
+#~ msgstr ""
+#~ "Здесь Вы можете проверить, что настройки верны и email может быть "
+#~ "отправлен."
+
+#~ msgid "Check email sending"
+#~ msgstr "Проверить отправку письма"
+
+#~ msgid "Restore settings"
+#~ msgstr "Восстановить настройки"
+
+#~ msgid "Updating plugins..."
+#~ msgstr "Обновление плагинов... "
+
+#~ msgid "Updating themes..."
+#~ msgstr "Обновление тем... "
+
+#~ msgid "Plugin mode"
+#~ msgstr "Режим работы"

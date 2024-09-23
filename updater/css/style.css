@@ -1,0 +1,38 @@
+/* admin page menu */
+.menu-top.toplevel_page_updater .wp-menu-image {
+    font-family: 'bwsicons' !important;
+}
+.menu-top.toplevel_page_updater .wp-menu-image:before {
+    content: "\e932";
+    font-family: 'bwsicons' !important;
+}
+/*
+ * Software tab
+*/
+#pdtr_wrap .column-category,
+#pdtr_wrap .column-auto_update {
+	width: 15%;
+}
+.pdtr-update-available th.check-column {
+    border-left: 4px solid #d54e21;
+}
+.pdtr-update-available {
+    background-color: #fef7f1 !important;
+}
+.pdtr-disable,
+.pdtr-disable:hover {
+	color: #888;
+}
+#pdtr_wrap .tablenav.bottom {
+	margin-bottom: 15px;
+}
+.no-js #pdtr_wrap .toggle-row {
+    display: none;
+}
+.rtl .pdtr-update-available th.check-column {
+    border-right: 4px solid #d54e21;
+    border-left: none !important;
+}
+.pdtr_normal_text {
+    font-style: normal !important;
+}
