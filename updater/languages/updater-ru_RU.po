@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Updater\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-28 09:43+0300\n"
-"PO-Revision-Date: 2020-09-28 09:46+0300\n"
+"PO-Revision-Date: 2024-11-22 16:19+0200\n"
 "Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
 "Language-Team: bestwebsoft.com <plugin@bestwebsoft.com>\n"
 "Language: ru_RU\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;esc_html__\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: bws_menu\n"
 
@@ -244,28 +244,26 @@ msgstr ""
 "помечены как спам или могут возникнуть сбои доставки."
 
 #: includes/class-pdtr-settings.php:343
-#, fuzzy
-#| msgid "New updates are available"
 msgid "New Updates are Available"
 msgstr "Доступны новые обновления"
 
 #: includes/class-pdtr-settings.php:345 includes/class-pdtr-settings.php:364
 msgid "Subject"
-msgstr ""
+msgstr "Тема"
 
 #: includes/class-pdtr-settings.php:348 includes/class-pdtr-settings.php:354
 #: includes/class-pdtr-settings.php:367 includes/class-pdtr-settings.php:373
 msgid "Allowed Variables:"
-msgstr ""
+msgstr "Разрешенные переменные:"
 
 #: includes/class-pdtr-settings.php:349 includes/class-pdtr-settings.php:356
 #: includes/class-pdtr-settings.php:368 includes/class-pdtr-settings.php:375
 msgid "Website name."
-msgstr ""
+msgstr "Название сайта."
 
 #: includes/class-pdtr-settings.php:351 includes/class-pdtr-settings.php:370
 msgid "Message"
-msgstr ""
+msgstr "Сообщение"
 
 #: includes/class-pdtr-settings.php:355
 msgid "List of available updates."
@@ -273,11 +271,9 @@ msgstr "Список доступных обновлений."
 
 #: includes/class-pdtr-settings.php:357 includes/class-pdtr-settings.php:376
 msgid "Website URL."
-msgstr ""
+msgstr "URL сайта."
 
 #: includes/class-pdtr-settings.php:362
-#, fuzzy
-#| msgid "Update is completed"
 msgid "Update is Completed"
 msgstr "Обновление завершено"
 
@@ -405,10 +401,8 @@ msgid "Hello!"
 msgstr "Здравствуйте!"
 
 #: updater.php:173 updater.php:176
-#, fuzzy
-#| msgid "Updater plugin is run on your website %s."
 msgid "Updater plugin is run on your website"
-msgstr "Плагин Updater был запущен на вашем сайте %s."
+msgstr "Плагин Updater запускается на вашем сайте"
 
 #: updater.php:173
 msgid "The following files need to be updated:"
@@ -433,16 +427,12 @@ msgid "Thanks for using %s!"
 msgstr "Спасибо за использование %s!"
 
 #: updater.php:197
-#, fuzzy
-#| msgid "Check for updates on"
 msgid "Check for Updates on"
-msgstr "Проверка обновлений на"
+msgstr "Следите за обновлениями на"
 
 #: updater.php:198
-#, fuzzy
-#| msgid "Updating on %s"
 msgid "Updating on"
-msgstr "Обновления на %s"
+msgstr "Обновление на"
 
 #: updater.php:282
 msgid ""

@@ -211,11 +211,11 @@ if ( ! class_exists( 'Pdtr_Settings_Tabs' ) ) {
 			<?php } ?>
 			<table class="form-table pdtr_settings_form">
 				<tr>
-					<th scope="row"><?php esc_html_e( 'Auto Update', 'updater' ); ?></th>
+					<th scope="row"><?php esc_html_e( 'Auto-Updates (Global Setting)', 'updater' ); ?></th>
 					<td>
 						<label>
 							<input type="checkbox" name="pdtr_mode" value="1" <?php checked( 1, $this->options['mode'] ); ?> />
-							<span class="bws_info"><?php esc_html_e( 'Enable to update software automatically.', 'updater' ); ?></span>
+							<span class="bws_info"><?php esc_html_e( 'Enable or disable auto-updates for all installed plugins and themes.', 'updater' ); ?></span>
 						</label>
 					</td>
 				</tr>

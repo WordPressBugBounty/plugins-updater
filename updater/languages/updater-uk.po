@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: updater\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-21 13:35+0300\n"
-"PO-Revision-Date: 2024-05-21 13:36+0300\n"
+"POT-Creation-Date: 2024-11-22 16:19+0200\n"
+"PO-Revision-Date: 2024-11-22 16:19+0200\n"
 "Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
 "Language-Team: BestWebSoft <plugin@bestwebsoft.com>\n"
 "Language: uk\n"
@@ -13,12 +13,12 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr_e;esc_attr__\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: bws_menu\n"
 
-#: includes/class-pdtr-settings.php:34 updater.php:40 updater.php:1400
-#: updater.php:1420
+#: includes/class-pdtr-settings.php:34 updater.php:40 updater.php:1402
+#: updater.php:1422
 msgid "Settings"
 msgstr "Налаштування"
 
@@ -73,7 +73,7 @@ msgid "Check & Update"
 msgstr "Перевірка і оновлення"
 
 #: includes/class-pdtr-settings.php:181 updater.php:829 updater.php:870
-#: updater.php:977
+#: updater.php:979
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -86,7 +86,7 @@ msgid "Themes"
 msgstr "Теми"
 
 #: includes/class-pdtr-settings.php:187 updater.php:835 updater.php:876
-#: updater.php:981
+#: updater.php:983
 msgid "Translations"
 msgstr "Переклади"
 
@@ -103,13 +103,14 @@ msgstr "Оновлення неактивних плагінів та тем"
 msgid "Enable to update inactive plugins and themes."
 msgstr "Включити оновлення неактивних плагінів і тем."
 
-#: includes/class-pdtr-settings.php:214 includes/software-table.php:62
-msgid "Auto Update"
-msgstr "Автоматичне оновлення"
+#: includes/class-pdtr-settings.php:214
+msgid "Auto-Updates (Global Setting)"
+msgstr "Автоматичне оновлення (глобальне налаштування)"
 
 #: includes/class-pdtr-settings.php:218
-msgid "Enable to update software automatically."
-msgstr "Включити автоматичне оновлення програмного забезпечення."
+msgid "Enable or disable auto-updates for all installed plugins and themes."
+msgstr ""
+"Увімкніть або вимкніть автооновлення для всіх встановлених плагінів і тем."
 
 #: includes/class-pdtr-settings.php:223
 msgid "Search & Install Updates Every"
@@ -310,6 +311,10 @@ msgstr "Назва"
 msgid "Version"
 msgstr "Версія"
 
+#: includes/software-table.php:62
+msgid "Update Mode"
+msgstr "Режим оновлення"
+
 #: includes/software-table.php:63
 msgid "Category"
 msgstr "Категорія"
@@ -351,41 +356,41 @@ msgstr "Тема"
 msgid "Core"
 msgstr "Ядро"
 
-#: includes/software-table.php:123
-msgid "Enabled"
-msgstr "Увімкнено"
+#: includes/software-table.php:122
+msgid "Manual"
+msgstr "Ручний"
 
-#: includes/software-table.php:125
-msgid "Disabled"
-msgstr "Вимкнено"
+#: includes/software-table.php:122
+msgid "Auto"
+msgstr "Автоматичний"
 
-#: includes/software-table.php:164
+#: includes/software-table.php:159
 msgid "Disable Auto Update"
 msgstr "Вимкнути автоматичне оновлення"
 
-#: includes/software-table.php:164
+#: includes/software-table.php:159
 msgid "Available in Pro"
 msgstr "Доступно для Pro версії плагіну"
 
-#: includes/software-table.php:294
+#: includes/software-table.php:289
 msgid "Sending Report..."
 msgstr "Відправка звіту..."
 
-#: includes/software-table.php:315
+#: includes/software-table.php:310
 #, php-format
 msgid "Sorry, your email could not be sent to %s."
 msgstr "На жаль, Ваш email не може бути надіслан на %s."
 
-#: includes/software-table.php:317
+#: includes/software-table.php:312
 #, php-format
 msgid "The email with the update results was sent to %s."
 msgstr "Лист з результатами оновлення був відправлен на %s."
 
-#: includes/software-table.php:323
+#: includes/software-table.php:318
 msgid "Go to the Updater page"
 msgstr "Перейти на сторінку \"Updater\""
 
-#: includes/software-table.php:323
+#: includes/software-table.php:318
 msgid "Go back to the Updater page"
 msgstr "Повернутися на сторінку \"Updater\""
 
@@ -472,7 +477,7 @@ msgstr "WordPress було успішно оновлено!"
 msgid "The following files can't be updated"
 msgstr "Наступні файли не можуть бути оновлені"
 
-#: updater.php:805 updater.php:848 updater.php:940
+#: updater.php:805 updater.php:848 updater.php:942
 msgid "Plugin(s)"
 msgstr "Плагін(и)"
 
@@ -480,13 +485,13 @@ msgstr "Плагін(и)"
 msgid "failed update"
 msgstr "помилка при оновленні"
 
-#: updater.php:810 updater.php:822 updater.php:952 updater.php:970
-#: updater.php:977
+#: updater.php:810 updater.php:822 updater.php:954 updater.php:972
+#: updater.php:979
 #, php-format
 msgid "the current version is %s"
 msgstr "поточна версія: %s"
 
-#: updater.php:817 updater.php:859 updater.php:958
+#: updater.php:817 updater.php:859 updater.php:960
 msgid "Theme(s)"
 msgstr "Тем(и)"
 
@@ -507,57 +512,57 @@ msgstr "Наступні файли оновлені успішно"
 msgid "updated to the version %s"
 msgstr "оновлено до версії  %s"
 
-#: updater.php:878
+#: updater.php:879
 msgid "updated successfully."
 msgstr "оновлені успішно."
 
-#: updater.php:951 updater.php:969
+#: updater.php:953 updater.php:971
 #, php-format
 msgid "to the version %s"
 msgstr "до версії  %s"
 
-#: updater.php:977
+#: updater.php:979
 #, php-format
 msgid "Version %s is available"
 msgstr "Доступна версія %s"
 
-#: updater.php:990 updater.php:995
+#: updater.php:992 updater.php:997
 msgid "To start the updating, please follow the link"
 msgstr "Щоб почати оновлення, будь ласка, перейдіть за посиланням"
 
-#: updater.php:990 updater.php:995
+#: updater.php:992 updater.php:997
 msgid "Updater page on your website"
 msgstr "Cторінка Updater на вашому сайті"
 
-#: updater.php:992
+#: updater.php:994
 msgid "Updater plugin starts updating these files."
 msgstr "Плагін Updater починає оновлення цих файлів."
 
-#: updater.php:999
+#: updater.php:1001
 msgid "Your files are all up to date."
 msgstr "Усі ваші файли оновлені."
 
-#: updater.php:1422
+#: updater.php:1424
 msgid "FAQ"
 msgstr "FAQ"
 
-#: updater.php:1423
+#: updater.php:1425
 msgid "Support"
 msgstr "Тех. підтримка"
 
-#: updater.php:1442
+#: updater.php:1444
 msgid "Notice:"
 msgstr "Попередження:"
 
-#: updater.php:1445
+#: updater.php:1447
 msgid "Due to the peculiarities of the multisite work, Updater plugin has only"
 msgstr "Через особливості роботи мультисайту, плагін Updater має тільки"
 
-#: updater.php:1447
+#: updater.php:1449
 msgid "Network settings page"
 msgstr "Сторінку налаштувань в мережі"
 
-#: updater.php:1450
+#: updater.php:1452
 msgid ""
 "Due to the peculiarities of the multisite work, Updater plugin has the "
 "network settings page only and it should be Network Activated."
@@ -565,9 +570,21 @@ msgstr ""
 "Через особливості роботи мультисайту, плагін Updater має сторінку "
 "налаштування тільки в мережі та має бути увімкнений для мережі."
 
-#: updater.php:1452
+#: updater.php:1454
 msgid "Activate Updater for Network"
 msgstr "Увімкніть Updater для мережі"
+
+#~ msgid "Auto Update"
+#~ msgstr "Автоматичне оновлення"
+
+#~ msgid "Enable to update software automatically."
+#~ msgstr "Включити автоматичне оновлення програмного забезпечення."
+
+#~ msgid "Enabled"
+#~ msgstr "Увімкнено"
+
+#~ msgid "Disabled"
+#~ msgstr "Вимкнено"
 
 #~ msgid ""
 #~ "Congratulations! Your plugins, themes, translations and WordPress have "
@@ -797,12 +814,6 @@ msgstr "Увімкніть Updater для мережі"
 
 #~ msgid "Mode"
 #~ msgstr "Режим роботи"
-
-#~ msgid "Manual"
-#~ msgstr "Ручний"
-
-#~ msgid "Auto"
-#~ msgstr "Автоматичний"
 
 #~ msgid "Search/update"
 #~ msgstr "Пошук/оновлення"

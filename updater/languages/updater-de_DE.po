@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-05-21 13:38+0300\n"
-"PO-Revision-Date: 2024-05-21 13:39+0300\n"
+"POT-Creation-Date: 2024-11-22 16:18+0200\n"
+"PO-Revision-Date: 2024-11-22 16:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-KeywordsList: esc_html_e;esc_html__;_e;__;esc_attr_e;esc_attr__\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: src/bws_menu\n"
 
 #: src/includes/class-pdtr-settings.php:34 src/updater.php:40
-#: src/updater.php:1400 src/updater.php:1420
+#: src/updater.php:1402 src/updater.php:1422
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -76,7 +76,7 @@ msgid "Check & Update"
 msgstr "Prüfen & Aktualisieren"
 
 #: src/includes/class-pdtr-settings.php:181 src/updater.php:829
-#: src/updater.php:870 src/updater.php:977
+#: src/updater.php:870 src/updater.php:979
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -89,7 +89,7 @@ msgid "Themes"
 msgstr "Themes"
 
 #: src/includes/class-pdtr-settings.php:187 src/updater.php:835
-#: src/updater.php:876 src/updater.php:981
+#: src/updater.php:876 src/updater.php:983
 msgid "Translations"
 msgstr "Übersetzungen"
 
@@ -107,14 +107,15 @@ msgstr "Inaktive Plugins & Themes aktualisieren"
 msgid "Enable to update inactive plugins and themes."
 msgstr "Aktivieren Sie die Aktualisierung inaktiver Plugins und Themes."
 
-#: src/includes/class-pdtr-settings.php:214 src/includes/software-table.php:62
-msgid "Auto Update"
-msgstr "Automatisches Update"
+#: src/includes/class-pdtr-settings.php:214
+msgid "Auto-Updates (Global Setting)"
+msgstr "Auto-Updates (Globale Einstellung)"
 
 #: src/includes/class-pdtr-settings.php:218
-msgid "Enable to update software automatically."
+msgid "Enable or disable auto-updates for all installed plugins and themes."
 msgstr ""
-"Aktivieren Sie diese Option, um die Software automatisch zu aktualisieren."
+"Aktivieren oder deaktivieren Sie die automatischen Updates für alle "
+"installierten Plugins und Themes."
 
 #: src/includes/class-pdtr-settings.php:223
 msgid "Search & Install Updates Every"
@@ -325,6 +326,10 @@ msgstr "Titel"
 msgid "Version"
 msgstr "Version"
 
+#: src/includes/software-table.php:62
+msgid "Update Mode"
+msgstr "Update-Modus"
+
 #: src/includes/software-table.php:63
 msgid "Category"
 msgstr "Kategorie"
@@ -366,41 +371,41 @@ msgstr "Theme"
 msgid "Core"
 msgstr "Kern"
 
-#: src/includes/software-table.php:123
-msgid "Enabled"
-msgstr "Aktiviert"
+#: src/includes/software-table.php:122
+msgid "Manual"
+msgstr "Manuell"
 
-#: src/includes/software-table.php:125
-msgid "Disabled"
-msgstr "Deaktiviert"
+#: src/includes/software-table.php:122
+msgid "Auto"
+msgstr "Auto"
 
-#: src/includes/software-table.php:164
+#: src/includes/software-table.php:159
 msgid "Disable Auto Update"
 msgstr "Automatische Aktualisierung deaktivieren"
 
-#: src/includes/software-table.php:164
+#: src/includes/software-table.php:159
 msgid "Available in Pro"
 msgstr "Verfügbar in Pro"
 
-#: src/includes/software-table.php:294
+#: src/includes/software-table.php:289
 msgid "Sending Report..."
 msgstr "Bericht abschicken..."
 
-#: src/includes/software-table.php:315
+#: src/includes/software-table.php:310
 #, php-format
 msgid "Sorry, your email could not be sent to %s."
 msgstr "Ihre E-Mail konnte leider nicht an %s gesendet werden."
 
-#: src/includes/software-table.php:317
+#: src/includes/software-table.php:312
 #, php-format
 msgid "The email with the update results was sent to %s."
 msgstr "Die E-Mail mit den Aktualisierungsergebnissen wurde an %s gesendet."
 
-#: src/includes/software-table.php:323
+#: src/includes/software-table.php:318
 msgid "Go to the Updater page"
 msgstr "Rufen Sie die Seite Updater auf"
 
-#: src/includes/software-table.php:323
+#: src/includes/software-table.php:318
 msgid "Go back to the Updater page"
 msgstr "Gehen Sie zurück zur Seite Updater"
 
@@ -487,7 +492,7 @@ msgstr "WordPress wurde erfolgreich aktualisiert!"
 msgid "The following files can't be updated"
 msgstr "Die folgenden Dateien können nicht aktualisiert werden"
 
-#: src/updater.php:805 src/updater.php:848 src/updater.php:940
+#: src/updater.php:805 src/updater.php:848 src/updater.php:942
 msgid "Plugin(s)"
 msgstr "Plugin(s)"
 
@@ -495,13 +500,13 @@ msgstr "Plugin(s)"
 msgid "failed update"
 msgstr "fehlgeschlagenes Update"
 
-#: src/updater.php:810 src/updater.php:822 src/updater.php:952
-#: src/updater.php:970 src/updater.php:977
+#: src/updater.php:810 src/updater.php:822 src/updater.php:954
+#: src/updater.php:972 src/updater.php:979
 #, php-format
 msgid "the current version is %s"
 msgstr "die aktuelle Version ist %s"
 
-#: src/updater.php:817 src/updater.php:859 src/updater.php:958
+#: src/updater.php:817 src/updater.php:859 src/updater.php:960
 msgid "Theme(s)"
 msgstr "Thema(s)"
 
@@ -522,58 +527,58 @@ msgstr "Die folgenden Dateien wurden erfolgreich aktualisiert"
 msgid "updated to the version %s"
 msgstr "aktualisiert auf die Version %s"
 
-#: src/updater.php:878
+#: src/updater.php:879
 msgid "updated successfully."
 msgstr "erfolgreich aktualisiert."
 
-#: src/updater.php:951 src/updater.php:969
+#: src/updater.php:953 src/updater.php:971
 #, php-format
 msgid "to the version %s"
 msgstr "zur Version %s"
 
-#: src/updater.php:977
+#: src/updater.php:979
 #, php-format
 msgid "Version %s is available"
 msgstr "Version %s ist verfügbar"
 
-#: src/updater.php:990 src/updater.php:995
+#: src/updater.php:992 src/updater.php:997
 msgid "To start the updating, please follow the link"
 msgstr "Um die Aktualisierung zu starten, folgen Sie bitte dem Link"
 
-#: src/updater.php:990 src/updater.php:995
+#: src/updater.php:992 src/updater.php:997
 msgid "Updater page on your website"
 msgstr "Updater-Seite auf Ihrer Website"
 
-#: src/updater.php:992
+#: src/updater.php:994
 msgid "Updater plugin starts updating these files."
 msgstr "Das Updater-Plugin startet die Aktualisierung dieser Dateien."
 
-#: src/updater.php:999
+#: src/updater.php:1001
 msgid "Your files are all up to date."
 msgstr "Ihre Dateien sind alle auf dem neuesten Stand."
 
-#: src/updater.php:1422
+#: src/updater.php:1424
 msgid "FAQ"
 msgstr "FAQ"
 
-#: src/updater.php:1423
+#: src/updater.php:1425
 msgid "Support"
 msgstr "Support"
 
-#: src/updater.php:1442
+#: src/updater.php:1444
 msgid "Notice:"
 msgstr "Hinweis:"
 
-#: src/updater.php:1445
+#: src/updater.php:1447
 msgid "Due to the peculiarities of the multisite work, Updater plugin has only"
 msgstr ""
 "Aufgrund der Besonderheiten der Multisite-Arbeit hat das Updater-Plugin nur"
 
-#: src/updater.php:1447
+#: src/updater.php:1449
 msgid "Network settings page"
 msgstr "Seite Netzwerkeinstellungen"
 
-#: src/updater.php:1450
+#: src/updater.php:1452
 msgid ""
 "Due to the peculiarities of the multisite work, Updater plugin has the "
 "network settings page only and it should be Network Activated."
@@ -582,6 +587,19 @@ msgstr ""
 "nur über die Seite mit den Netzwerkeinstellungen und sollte daher als "
 "Netzwerk aktiviert sein."
 
-#: src/updater.php:1452
+#: src/updater.php:1454
 msgid "Activate Updater for Network"
 msgstr "Aktivieren Sie Updater für Netzwerk"
+
+#~ msgid "Auto Update"
+#~ msgstr "Automatisches Update"
+
+#~ msgid "Enable to update software automatically."
+#~ msgstr ""
+#~ "Aktivieren Sie diese Option, um die Software automatisch zu aktualisieren."
+
+#~ msgid "Enabled"
+#~ msgstr "Aktiviert"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktiviert"

@@ -6,7 +6,7 @@ Description: Automatically check and update WordPress website core with all inst
 Author: BestWebSoft
 Text Domain: updater
 Domain Path: /languages
-Version: 1.46
+Version: 1.48
 Author URI: https://bestwebsoft.com/
 License: GPLv2 or later
  */
@@ -746,7 +746,7 @@ if ( ! function_exists( 'pdtr_notification_after_update' ) ) {
 					),
 					ARRAY_A
 				);
-				$plugins_result[ $value ] = ( $versions['version'] < $versions['new_version'] && ( ! empty( $versions['new_version'] ) ) ) ? false : true;
+				$plugins_result[ $value ] = ! empty( $versions['new_version'] ) && $versions['version'] < $versions['new_version'] ? false : true;
 			}
 			foreach ( $plugins_result as $plugin_value ) {
 				if ( false !== $plugin_value ) {
@@ -849,7 +849,7 @@ if ( ! function_exists( 'pdtr_notification_after_update' ) ) {
 				foreach ( $plugins_result as $key => $value ) {
 					if ( false !== $value ) {
 						$name                  = explode( '/', $key );
-						$$plugins_list_update .= '<li><span style="color:#179247">' . $name[0] . ' - ' . sprintf( __( 'updated to the version %s', 'updater' ), $updater_list['plugin_list'][ $key ]['Version'] ) . ';</span></li>';
+						$plugins_list_update .= '<li><span style="color:#179247">' . $name[0] . ' - ' . sprintf( __( 'updated to the version %s', 'updater' ), $updater_list['plugin_list'][ $key ]['Version'] ) . ';</span></li>';
 					}
 				}
 				$plugins_list_update .= '</ul><br/>';
@@ -872,12 +872,14 @@ if ( ! function_exists( 'pdtr_notification_after_update' ) ) {
 					</ul><br/>';
 			}
 
-			if ( ! empty( $language_result ) ) {
+			if ( ! empty( $languages ) ) {
 				$plugins_list_update .= '<strong>' . __( 'Translations', 'updater' ) . ':</strong><ul>';
 				foreach ( $languages as $language ) {
-					$plugins_list_update .= '<li><span style="color:#179247">' . $language . ' - ' . __( 'updated successfully.', 'updater' ) . '</span></li>
-					</ul><br/>';
+					if ( ( ! empty( $language_result ) && ! in_array( $language, $language_result ) ) || empty( $language_result ) ) {
+						$plugins_list_update .= '<li><span style="color:#179247">' . $language . ' - ' . __( 'updated successfully.', 'updater' ) . '</span></li>';
+					}
 				}
+				$plugins_list_update .= '</ul><br/>';
 			}
 		}
 
@@ -973,7 +975,7 @@ if ( ! function_exists( 'pdtr_notification_exist_update' ) ) {
 		}
 
 		if ( true === $core ) {
-			$core_version         = $wpdb->get_row( 'SELECT `version`, `new_version` FROM `' . $wpdb->prefix . 'updater_list` WHERE `wp_key` = `wp_core`', ARRAY_A );
+			$core_version         = $wpdb->get_row( 'SELECT `version`, `new_version` FROM `' . $wpdb->prefix . 'updater_list` WHERE `wp_key` = "wp_core"', ARRAY_A );
 			$plugins_list_update .= '<strong>' . __( 'WordPress', 'updater' ) . ':</strong><ul><li>' . sprintf( __( 'Version %s is available', 'updater' ), $core_version['new_version'] ) . ' (' . sprintf( __( 'the current version is %s', 'updater' ), $core_version['version'] ) . ').</li></ul>';
 		}
 
@@ -1308,7 +1310,6 @@ if ( ! function_exists( 'pdtr_auto_function' ) ) {
 		$result_list = $wpdb->get_results( 'SELECT `wp_key`, `type` FROM `' . $wpdb->base_prefix . "updater_list` WHERE `new_version` != '' OR `type` = 'language'", ARRAY_A );
 		if ( $result_list ) {
 			foreach ( $result_list as $key => $value ) {
-
 				if ( 'plugin' === $value['type'] && 1 === absint( $pdtr_options['update_plugin'] ) ) {
 					$plugin_update_list[] = $value['wp_key'];
 				} elseif ( 'theme' === $value['type'] && 1 === absint( $pdtr_options['update_theme'] ) ) {
@@ -1329,6 +1330,7 @@ if ( ! function_exists( 'pdtr_auto_function' ) ) {
 		if ( 1 === absint( $pdtr_options['send_mail_get_update'] ) ) {
 			pdtr_notification_exist_update( $plugin_update_list, $theme_update_list, $core, $languages );
 		}
+
 
 		include_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
 		if ( false !== $core ) {

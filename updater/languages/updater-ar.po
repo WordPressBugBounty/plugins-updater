@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-05-21 13:38+0300\n"
-"PO-Revision-Date: 2024-05-21 13:53+0300\n"
+"POT-Creation-Date: 2024-11-22 16:17+0200\n"
+"PO-Revision-Date: 2024-11-22 16:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-KeywordsList: esc_html_e;esc_html__;_e;__;esc_attr_e;esc_attr__\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: src/bws_menu\n"
 
 #: src/includes/class-pdtr-settings.php:34 src/updater.php:40
-#: src/updater.php:1400 src/updater.php:1420
+#: src/updater.php:1402 src/updater.php:1422
 msgid "Settings"
 msgstr "الإعدادات"
 
@@ -70,7 +70,7 @@ msgid "Check & Update"
 msgstr "التحقق والتحديث"
 
 #: src/includes/class-pdtr-settings.php:181 src/updater.php:829
-#: src/updater.php:870 src/updater.php:977
+#: src/updater.php:870 src/updater.php:979
 msgid "WordPress"
 msgstr "ووردبريس"
 
@@ -83,7 +83,7 @@ msgid "Themes"
 msgstr "القوالب"
 
 #: src/includes/class-pdtr-settings.php:187 src/updater.php:835
-#: src/updater.php:876 src/updater.php:981
+#: src/updater.php:876 src/updater.php:983
 msgid "Translations"
 msgstr "الترجمة"
 
@@ -101,13 +101,17 @@ msgstr "تحديث الإضافات والقوالب غير النشطة"
 msgid "Enable to update inactive plugins and themes."
 msgstr "تمكين تحديث الإضافات والقوالب غير النشطة."
 
-#: src/includes/class-pdtr-settings.php:214 src/includes/software-table.php:62
-msgid "Auto Update"
-msgstr "تحديث التلقائي"
+#: src/includes/class-pdtr-settings.php:214
+#, fuzzy
+#| msgid "Updater Settings"
+msgid "Auto-Updates (Global Setting)"
+msgstr "إعدادات المحدث"
 
 #: src/includes/class-pdtr-settings.php:218
-msgid "Enable to update software automatically."
-msgstr "تمكين تحديث البرنامج تلقائياً."
+#, fuzzy
+#| msgid "Enable to update inactive plugins and themes."
+msgid "Enable or disable auto-updates for all installed plugins and themes."
+msgstr "تمكين تحديث الإضافات والقوالب غير النشطة."
 
 #: src/includes/class-pdtr-settings.php:223
 msgid "Search & Install Updates Every"
@@ -313,6 +317,12 @@ msgstr "العنوان"
 msgid "Version"
 msgstr "الإصدار"
 
+#: src/includes/software-table.php:62
+#, fuzzy
+#| msgid "Update Now"
+msgid "Update Mode"
+msgstr "تحديث الان"
+
 #: src/includes/software-table.php:63
 msgid "Category"
 msgstr "التصنيف"
@@ -354,41 +364,41 @@ msgstr "القالب"
 msgid "Core"
 msgstr "النواة"
 
-#: src/includes/software-table.php:123
-msgid "Enabled"
-msgstr "تمكين"
+#: src/includes/software-table.php:122
+msgid "Manual"
+msgstr "يدوي"
 
-#: src/includes/software-table.php:125
-msgid "Disabled"
-msgstr "معطل"
+#: src/includes/software-table.php:122
+msgid "Auto"
+msgstr "تلقائي"
 
-#: src/includes/software-table.php:164
+#: src/includes/software-table.php:159
 msgid "Disable Auto Update"
 msgstr "تعطيل التحديث التلقائي"
 
-#: src/includes/software-table.php:164
+#: src/includes/software-table.php:159
 msgid "Available in Pro"
 msgstr "متوفر في Pro"
 
-#: src/includes/software-table.php:294
+#: src/includes/software-table.php:289
 msgid "Sending Report..."
 msgstr "إرسال التقرير..."
 
-#: src/includes/software-table.php:315
+#: src/includes/software-table.php:310
 #, php-format
 msgid "Sorry, your email could not be sent to %s."
 msgstr "عذرًا، تعذر إرسال بريدك الإلكتروني إلى %s."
 
-#: src/includes/software-table.php:317
+#: src/includes/software-table.php:312
 #, php-format
 msgid "The email with the update results was sent to %s."
 msgstr "تم إرسال البريد الإلكتروني الذي يحتوي على نتائج التحديث إلى %s."
 
-#: src/includes/software-table.php:323
+#: src/includes/software-table.php:318
 msgid "Go to the Updater page"
 msgstr "انتقل إلى صفحة المحدِّث"
 
-#: src/includes/software-table.php:323
+#: src/includes/software-table.php:318
 msgid "Go back to the Updater page"
 msgstr "العودة إلى صفحة المحدِّث"
 
@@ -415,8 +425,8 @@ msgstr "يجب تحديث الملفات التالية:"
 #: src/updater.php:195 src/updater.php:198
 #, php-format
 msgid ""
-"If you want to change the type of the updating mode or other settings, "
-"please go to the %s."
+"If you want to change the type of the updating mode or other settings, please "
+"go to the %s."
 msgstr ""
 "إذا كنت تريد تغيير نوع وضع التحديث أو الإعدادات الأخرى، يُرجى الانتقال إلى %s."
 
@@ -474,7 +484,7 @@ msgstr "تم تحديث ووردبريس بنجاح!"
 msgid "The following files can't be updated"
 msgstr "لا يمكن تحديث الملفات التالية"
 
-#: src/updater.php:805 src/updater.php:848 src/updater.php:940
+#: src/updater.php:805 src/updater.php:848 src/updater.php:942
 msgid "Plugin(s)"
 msgstr "المكون (المكونات الإضافية)"
 
@@ -482,13 +492,13 @@ msgstr "المكون (المكونات الإضافية)"
 msgid "failed update"
 msgstr "تحديث فاشل"
 
-#: src/updater.php:810 src/updater.php:822 src/updater.php:952
-#: src/updater.php:970 src/updater.php:977
+#: src/updater.php:810 src/updater.php:822 src/updater.php:954
+#: src/updater.php:972 src/updater.php:979
 #, php-format
 msgid "the current version is %s"
 msgstr "الإصدار الحالي هو %s"
 
-#: src/updater.php:817 src/updater.php:859 src/updater.php:958
+#: src/updater.php:817 src/updater.php:859 src/updater.php:960
 msgid "Theme(s)"
 msgstr "الموضوع (المواضيع)"
 
@@ -509,57 +519,57 @@ msgstr "تم تحديث الملفات التالية بنجاح"
 msgid "updated to the version %s"
 msgstr "تحديث إلى الإصدار %s"
 
-#: src/updater.php:878
+#: src/updater.php:879
 msgid "updated successfully."
 msgstr "تم التحديث بنجاح."
 
-#: src/updater.php:951 src/updater.php:969
+#: src/updater.php:953 src/updater.php:971
 #, php-format
 msgid "to the version %s"
 msgstr "إلى الإصدار %s"
 
-#: src/updater.php:977
+#: src/updater.php:979
 #, php-format
 msgid "Version %s is available"
 msgstr "الإصدار %s متاح"
 
-#: src/updater.php:990 src/updater.php:995
+#: src/updater.php:992 src/updater.php:997
 msgid "To start the updating, please follow the link"
 msgstr "لبدء التحديث، يرجى اتباع الرابط"
 
-#: src/updater.php:990 src/updater.php:995
+#: src/updater.php:992 src/updater.php:997
 msgid "Updater page on your website"
 msgstr "صفحة المحدث على موقع الويب الخاص بك"
 
-#: src/updater.php:992
+#: src/updater.php:994
 msgid "Updater plugin starts updating these files."
 msgstr "يبدأ المكون الإضافي Updater في تحديث هذه الملفات."
 
-#: src/updater.php:999
+#: src/updater.php:1001
 msgid "Your files are all up to date."
 msgstr "جميع ملفاتك محدثة."
 
-#: src/updater.php:1422
+#: src/updater.php:1424
 msgid "FAQ"
 msgstr "الأسئلة الشائعة"
 
-#: src/updater.php:1423
+#: src/updater.php:1425
 msgid "Support"
 msgstr "الدعم"
 
-#: src/updater.php:1442
+#: src/updater.php:1444
 msgid "Notice:"
 msgstr "ملاحظة:"
 
-#: src/updater.php:1445
+#: src/updater.php:1447
 msgid "Due to the peculiarities of the multisite work, Updater plugin has only"
 msgstr "نظرًا لخصائص العمل متعدد المواقع، فإن المكون الإضافي Updater لديه فقط"
 
-#: src/updater.php:1447
+#: src/updater.php:1449
 msgid "Network settings page"
 msgstr "صفحة إعدادات الشبكة"
 
-#: src/updater.php:1450
+#: src/updater.php:1452
 msgid ""
 "Due to the peculiarities of the multisite work, Updater plugin has the "
 "network settings page only and it should be Network Activated."
@@ -567,6 +577,18 @@ msgstr ""
 "نظرًا لخصائص عمل المواقع المتعددة، تحتوي الإضافة Updater على صفحة إعدادات "
 "الشبكة فقط ويجب أن تكون مفعلة على الشبكة."
 
-#: src/updater.php:1452
+#: src/updater.php:1454
 msgid "Activate Updater for Network"
 msgstr "تنشيط المحدث للشبكة"
+
+#~ msgid "Auto Update"
+#~ msgstr "تحديث التلقائي"
+
+#~ msgid "Enable to update software automatically."
+#~ msgstr "تمكين تحديث البرنامج تلقائياً."
+
+#~ msgid "Enabled"
+#~ msgstr "تمكين"
+
+#~ msgid "Disabled"
+#~ msgstr "معطل"

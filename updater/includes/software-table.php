@@ -59,7 +59,7 @@ if ( ! class_exists( 'Pdtr_Software_List' ) ) {
 				'cb'          => '<input type="checkbox" />',
 				'title'       => __( 'Title', 'updater' ),
 				'version'     => __( 'Version', 'updater' ),
-				'auto_update' => __( 'Auto Update', 'updater' ),
+				'auto_update' => __( 'Update Mode', 'updater' ),
 				'category'    => __( 'Category', 'updater' ),
 			);
 			return $columns;
@@ -119,12 +119,7 @@ if ( ! class_exists( 'Pdtr_Software_List' ) ) {
 						return __( 'Core', 'updater' );
 					}
 				case 'auto_update':
-					if ( 1 === absint( $pdtr_options['mode'] ) ) {
-						return __( 'Enabled', 'updater' );
-					} else {
-						return __( 'Disabled', 'updater' );
-					}
-
+					return 1 === absint( $item['block'] ) ? __( 'Manual', 'updater' ) : __( 'Auto', 'updater' );
 				case 'title':
 					return $item['name'];
 				default:
