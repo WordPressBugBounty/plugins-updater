@@ -1,24 +1,23 @@
 === Updater by BestWebSoft ===
 Contributors: bestwebsoft
 Donate link: https://bestwebsoft.com/donate/
-Tags: updater, updater plugin, recent version, recent wordpress version, update frequency, update manually, update notification, update plugins, update wordpres, update to latest version, update automatically, update manually
+Tags: updater, update wordpress plugins, auto update wordpress plugins, update wordpress core, wordpress plugin updates
 Requires at least: 5.6
-Tested up to: 6.7
+Tested up to: 6.9
 Stable tag: 1.48
 License: GPLv2 or later
 
-Automatically check and update WordPress website core with all installed plugins and themes to the latest versions.
+Automatically update WordPress core, plugins, themes, and translations. Schedule updates and get email notifications – no FTP needed.
 
 == Description ==
 
-Updater plugin automatically updates installed plugins, themes, and WordPress website core to the latest versions. Download, install, configure, and forget about constant updates!
+Updater by BestWebSoft is a reliable WordPress plugin that automatically updates your website's core, plugins, themes, and translation files to the latest versions.
 
-Set the update frequency, choose auto or manual mode, create a backup, set email notifications and much more.
+Choose between automatic and manual update modes. Set custom update schedules, exclude specific plugins or themes from updating, and receive detailed email notifications about available updates and results — all without needing FTP access.
 
-Save your time and stay up-to-date!
+With built-in backup options and compatibility with products from Envato, Updater helps you keep your WordPress site secure, up-to-date, and running smoothly.
 
 [View Demo](https://bestwebsoft.com/demo-updater-for-your-wordpress-site/?ref=readme)
-
 
 https://www.youtube.com/watch?v=I63426HTJjI
 
@@ -77,6 +76,11 @@ Visit our Help Center if you have any questions, our friendly Support Team is ha
 
 * Russian (ru_RU)
 * Ukrainian (uk)
+* French (fr_FR)
+* Italian (it_IT)
+* Arabic (ar)
+* German (de_DE)
+* Spanish (es_SP)
 
 Some of these translations are not complete. We are constantly adding new features which should be translated. If you would like to create your own language pack or update the existing one, you can send [the text of PO and MO files](http://codex.wordpress.org/Translating_WordPress) to [BestWebSoft](https://support.bestwebsoft.com/hc/en-us/requests/new) and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO [files Poedit](http://www.poedit.net/download.php).
 
